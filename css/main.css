@@ -1,0 +1,51 @@
+body {
+    border: 0;
+    box-sizing: border-box;
+    margin: 0;
+    width: 100%;
+}
+
+/* ***** MAIN *****  */
+.row .col {
+    padding: .2em;
+    margin: 0;
+}
+
+.row {
+    margin: 0;
+    padding: 0;w
+}
+
+nav {
+    padding: 0 1em;
+}
+
+/* ***** COLLAGE CONTAINER *****  */
+#collageMainContainer {
+    height: auto;
+    padding: 1em;
+}
+
+#col-cont-1, #col-cont-2, #col-cont-3 {
+    height: 15em;
+    /*width: 50%;*/
+}
+
+/* ***** CONTAINER SHOW-PICS *****  */
+#showPics {
+    border: 2px dotted purple;
+    height: auto;
+    padding: 1em 8.33%;
+    width: 100%;
+}
+
+img {
+    height: 10em;
+    padding: 0;
+    margin: 0;
+}
+
+/* ***** FOOTER *****  */
+footer {
+    padding: 0 1em;
+}
