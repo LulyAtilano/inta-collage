@@ -13,9 +13,10 @@ function drag(dragevent) {
 function drop(dropevent) {
     dropevent.preventDefault();
     var data = dropevent.dataTransfer.getData("text");
-    dropevent.target.appendChild(document.getElementById(data));
+    var element = document.getElementById(data);
+    dropevent.target.appendChild(element);
     //$('[id*=img]').removeClass('picsDraggable');
-    $('[id*=img]').addClass('imgAdd');
+    $(element).addClass('imgAdd');
     //$(this).addClass('imgAdd');
     //dropevent.addClass(picsDraggable);
 }

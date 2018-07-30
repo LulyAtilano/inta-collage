@@ -1,0 +1,44 @@
+body {
+    padding: 0;
+    border: 0;
+    background: linear-gradient(to right,pink,#9de69d);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: 
+}
+
+/* ****** NAV CONTAINER ****** */
+nav {
+    padding-left: 30%;
+}
+
+/* ****** NAME CONTAINER ****** */
+#nameContainer {
+    font-family: 'Pacifico', cursive;
+    font-size: 2.5em;
+    padding: 2em 0;
+}
+
+/* ****** LOGIN CONTAINER ****** */
+.row {
+    margin: 0;
+}
+
+#loginContainer {
+    padding-left: 30%;
+}
+
+input#first_name, input#password {
+    border: 1px solid white;
+    margin: 0;
+    opacity: .2;
+    background-color: white; 
+    /*width: 15em;*/
+}
+
+input#buttonLogin {
+    border: 1px solid white;
+    width: 100%;
+    /*background-color: transparent;*/
+}
+
