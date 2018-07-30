@@ -1,7 +1,7 @@
 body {
     padding: 0;
     border: 0;
-    background: linear-gradient(to right,pink,#9de69d);
+    background: linear-gradient(-90deg,pink,#9de69d);
     background-size: cover;
     background-repeat: no-repeat;
     color: 
@@ -10,6 +10,7 @@ body {
 /* ****** NAV CONTAINER ****** */
 nav {
     padding-left: 30%;
+    box-shadow: none;
 }
 
 /* ****** NAME CONTAINER ****** */
@@ -39,6 +40,45 @@ input#first_name, input#password {
 input#buttonLogin {
     border: 1px solid white;
     width: 100%;
+    padding: 1em .5em;
     /*background-color: transparent;*/
 }
 
+p.white-text {
+    margin: 0;
+    font-size: 15px;
+}
+
+.row .col {
+    padding: 0;
+}
+
+hr {
+    font-size: 1em;
+    display: inline-flex;
+    padding: 0 .5em;
+    width: 30%;
+    margin-top: .5em;
+}
+
+/* ****** Div FB ****** */
+div#divFb { 
+    padding: 1em .5em;
+    font-size: 1.2em;
+}
+
+i.fab{
+    color: white;
+}
+
+button#buttonFb {
+    border: none;
+    padding: 0;
+    box-shadow: none;
+}
+
+/* ****** Footer ****** */
+footer {
+    border-top: 1px solid white;
+    padding: 3em 0;
+}

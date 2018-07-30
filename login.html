@@ -7,6 +7,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
         <link rel="stylesheet" type="text/css" media="screen" href="css/login.css" />
     </head>
@@ -49,13 +50,27 @@
                 <div class="row">
                     <div class="input-field col s8">
                         <input id="buttonLogin" type="button" class="validate white-text transparent" value="INICIAR SESIÓN">
-                        <!--<a class="btn-large"> Iniciar sesión </a>-->
+                    </div>
+                </div>
+                <p class="white-text col s8"> ¿Has olvidado tu información de inicio de sesión? <b> Obtén ayuda. </b> </p>
+                <div class="white-text">
+                    <hr> O <hr>
+                </div>
+                <div class="row">
+                    <div id="divFb" class="input-field col s8 center-align">
+                        <i class="fab fa-facebook-square transparent"></i>
+                        <button id="buttonFb" type="button" class="validate white-text transparent"> Iniciar sesión con Facebook </button>
                     </div>
                 </div>
             </form>
         </div>
-        
-
+        <footer class="page-footer transparent">
+            <div class="row">
+                <span class="col s12 center-align">
+                ¿No tienes una cuenta? <b> Regístrate </b>
+                </span>
+            </div>
+        </footer>
 
         <!-- Js Files -->
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E=" crossorigin="anonymous"></script>
