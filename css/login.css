@@ -16,12 +16,12 @@ nav {
 /* ****** NAME CONTAINER ****** */
 #nameContainer {
     font-family: 'Pacifico', cursive;
-    font-size: 2.5em;
+    font-size: 2em;
     padding: 2em 0;
 }
 
 /* ****** LOGIN CONTAINER ****** */
-.row {
+div#loginContainer.row > form.col.s12 > div.row {
     margin: 0;
 }
 
@@ -31,7 +31,7 @@ nav {
 
 input#first_name, input#password {
     border: 1px solid white;
-    margin: 0;
+    margin-right: 0;
     opacity: .2;
     background-color: white; 
     /*width: 15em;*/
@@ -45,20 +45,35 @@ input#buttonLogin {
 }
 
 p.white-text {
-    margin: 0;
+    margin-top: 0;
     font-size: 15px;
 }
 
 .row .col {
     padding: 0;
+    margin: 0;
 }
 
-hr {
-    font-size: 1em;
+div#hrDiv {
     display: inline-flex;
-    padding: 0 .5em;
-    width: 30%;
-    margin-top: .5em;
+    align-content: center;
+    width: 80%;
+    margin-top: 15px;
+}
+
+div#hrDiv > a {
+    background-color: transparent;
+    color: white;
+    padding: 0 5px 0 5px;
+    font-size: 1em;
+}
+
+div#hrDiv > hr {
+    height: 1px;
+    background-color: white;
+    border: none;
+    margin: 10px 15px 0 15px;
+    width: 100%;
 }
 
 /* ****** Div FB ****** */
