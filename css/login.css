@@ -13,6 +13,10 @@ nav {
     box-shadow: none;
 }
 
+ul#dropdown1 {
+    background: linear-gradient(to top right,pink,#9de69d);
+}
+
 /* ****** NAME CONTAINER ****** */
 #nameContainer {
     font-family: 'Pacifico', cursive;
@@ -29,7 +33,7 @@ div#loginContainer.row > form.col.s12 > div.row {
     padding-left: 30%;
 }
 
-input#first_name, input#password {
+input#email, input#password {
     border: 1px solid white;
     margin-right: 0;
     opacity: .2;
