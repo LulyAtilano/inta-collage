@@ -1,7 +1,7 @@
 body {
     padding: 0;
     border: 0;
-    background: linear-gradient(-90deg,pink,#9de69d);
+    background: linear-gradient(to top right,pink,#9de69d);
     background-size: cover;
     background-repeat: no-repeat;
     color: 
